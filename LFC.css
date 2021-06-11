@@ -1,0 +1,113 @@
+body{
+    background-image: url('winners1.jpg');
+}
+.heading h1 {
+    color:red;
+font-family: 
+'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 50px;
+text-align: center;
+}
+.heading p{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    text-align: center;
+}
+.Box{
+    display: flex;
+}
+.Services{
+    flex:2;
+}
+.Mandate{
+    flex:1;
+}
+.Mandate{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    margin: 3px;
+}
+.Mandate h3{
+    color: white;
+    background-color: dimgrey;
+    
+}
+.Speech{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+.Services{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+/*.site-background{
+    background-image: url('winners1.jpg');
+    background-image-height: 200px;
+}*/
+#Protocol{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 23px;
+    line-height: normal;
+}
+.button{
+    border-radius: 2px;
+    background-image:white;
+   border:2px  red solid;
+   font-size: 13px;
+}
+.victory{
+    
+}
+.list1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    border-top:3px white solid;
+    border-bottom:3px white solid;
+    border-left:3px red solid;
+    border-right:3px red solid;
+    border-radius: 27px;
+}
+.list1 h2{
+    text-align: center;
+    color:red;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+}
+.img {
+    border:3px black solid;
+    border-radius: 100px;
+    height:100px; 
+    width:100px;
+}
+.search-field{
+    height:50px;
+
+}
+.search-btn{
+    height:50px;
+    cursor:unset
+    
+}
+
+.loading1{
+	border:6px solid lightgrey;
+	border-radius: 50%;
+	border-top:6px solid blue;
+	border-right:6px solid blue;/*
+	border-bottom: 16px solid red;*/
+	width:60px;
+	height:60px;
+	-webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin{
+	0%{
+		-webkit-transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+	}
+}
+}
